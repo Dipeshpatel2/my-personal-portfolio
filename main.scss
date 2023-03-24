@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+$font-body:"Poppins", sans-serif;
+$font-display:"Roboto", arial;
+
+$primary-color: #28527a;
+$secondary-color: rgb(157, 0, 255);
+$color-black: #333333;
+$color-white: #fafafa;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.details{
+    display: none;
+}
+
+h1, h2, h3, h4 {
+    font-size: 50px;
+}
+
+.introduction {
+    border: 2px solid red;
+   // display: flex;
+    // align-items: center;
+   // justify-content: center;
+    // text-align: center;
+    
+    img{
+        width: 100%;
+    }
+
+    h2{
+        border: 2px solid green;
+        font-family: $font-body;
+    }
+
+    
+}
+
+.about-me {
+    border: 2px solid yellow;
+    
+}
+
+.technical{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item{
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    p{
+      font-size: 10px;
+    }
+
+.projects{
+    display: grid;
+}
+
+
+.projects img .PP{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+@media and min-width{
+    
+}
