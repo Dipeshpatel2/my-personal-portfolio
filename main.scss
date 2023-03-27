@@ -129,8 +129,16 @@ a:link, a:visited {
 .projects img .PP{
     grid-column: 1;
     grid-row: 1;
-}
+    }   
 
-//@media and min-width{768px
+    .title{
+        font-size: 18px;
+    }
+
+    .sub-title{
+        font-size: 32px;
+    }
+
+//@media and min-width{768px}
 
 //
