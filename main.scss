@@ -24,7 +24,7 @@ a:link, a:visited {
     padding: 10px;
 }
 
-.details{
+.nav{
     display: none;
 }
 
@@ -46,7 +46,7 @@ a:link, a:visited {
     // text-align: center;
     
     img{
-        width: 100%;
+        display: none;
     }
 
     h2{
@@ -85,10 +85,9 @@ a:link, a:visited {
         margin-top: 30px;
     }    
 }
-.skill-set{
+.skills-set{
 
-    h3{
-        border: 2px solid black;
+    h3 {border: 2px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,6 +101,7 @@ a:link, a:visited {
         font-size: 14px;
         font-weight: 400;
     }
+}
 
 .technical{
     border: 2px solid blue;
@@ -124,21 +124,55 @@ a:link, a:visited {
 .projects{
     display: grid;
 }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
 
+        button{
+            background-color: white;
+            border:2px solid $color-black;
+            border-radius: 10px;
+            padding: 8px 32px;
 
-.projects img .PP{
+        }
+    }
+
+.projects-text{
+
+    p{
+        color: $color-black;
+        font-size: 25px;
+    }
+}
+
+    .projects img .PP{
     grid-column: 1;
     grid-row: 1;
     }   
 
-    .title{
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .email p{
+        //color: $color-white;
         font-size: 18px;
+        }
+
+@media screen and (min-width :768px) {
+
+    .technical{
+        display: flex;
+        justify-content: space-around;
     }
 
-    .sub-title{
-        font-size: 32px;
+    .details{
+        display: contents;
     }
-
-//@media and min-width{768px}
-
-//
+}
