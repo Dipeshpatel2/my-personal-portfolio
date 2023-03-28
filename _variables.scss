@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+$font-body: "Inter", sans-serif;
+$font-display: "Roboto", arial;
+
+$color-black: #000000;
+$color-white: #fafafa;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+  font-style: normal;
+  color: $color-black;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+.hello {
+    padding: 10px;
+  }
+  
+  .nav {
+    display: none;
+  }
+  
+  
+  
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    img {
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+  
+    p {
+      color: #fafafa;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .technical {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .details {
+      display: contents;
+    }
+  
+    .projects{
+          .PP .projects-text{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: 1fr 1fr 1fr;
+          }
+      
+      .nav{
+          display:show;
+      }
+      
+    }
+  }

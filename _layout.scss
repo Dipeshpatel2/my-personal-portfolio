@@ -1,0 +1,115 @@
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .introduction {
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+  
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+  
+    img {
+      display: none;
+    }
+  
+    h2 {
+      font-family: $font-body;
+    }
+    p {
+      font-size: 55px;
+    }
+  }
+  
+  .about-me {
+    padding: 10px;
+    font-weight: 600;
+  
+    h2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+    }
+  }
+  .skills-set {
+    h3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  
+    p {
+      font-size: 17px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  
+  .technical {
+    padding: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .item {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+      p {
+        font-size: 10px;
+      }
+  }
+  .projects {
+    display: grid;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    button {
+      background-color: white;
+      border: 2px solid $color-black;
+      border-radius: 10px;
+      padding: 8px 32px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .projects-text {
+    p{
+      color: $color-black;
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .projects img .PP {
+    grid-column: 1;
+    grid-row: 1;
+  }
